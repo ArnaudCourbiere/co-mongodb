@@ -1,0 +1,15 @@
+{
+    "name": "co-mongodb",
+    "description": "mongodb wrapper to use with co and koa.",
+    "version": "0.0.1",
+    "author": "Arnaud Courbiere <arnaud.courbiere@gmail.com>",
+    "main": "index",
+    "dependencies": {
+        "mongodb": "*"
+    },
+    "repository": "git://github.com/ArnaudCourbiere/co-mongodb",
+    "scripts": {
+        "prepublish": "npm prune"
+    },
+    "engines": { "node": ">= 0.11.9" }
+}
