@@ -8,6 +8,16 @@
         "mongodb": "*"
     },
     "repository": "git://github.com/ArnaudCourbiere/co-mongodb",
+    "keywords": [
+        "web",
+        "app",
+        "mongodb",
+        "database",
+        "nosql",
+        "co",
+        "koa"
+    ],
+    "license": "MIT",
     "scripts": {
         "prepublish": "npm prune"
     },
