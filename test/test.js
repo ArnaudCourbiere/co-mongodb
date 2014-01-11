@@ -9,6 +9,8 @@ describe('Getting the DB', function () {
             var db = yield mongo.getDb('mongodb://localhost:27017/test');
             
             assert.ok(db instanceof mongodb.Db);
+            
+            db.close();
         })(done);
     });
 });
@@ -20,6 +22,8 @@ describe('Geting a collection', function () {
             var collection = yield mongo.getCollection(db, 'testcollection');
             
             assert.ok(collection instanceof mongodb.Collection);
+            
+            db.close();
         })(done);
     });
 });
@@ -33,6 +37,8 @@ describe('Getting a cursor as an array', function () {
             
             assert.ok(items instanceof Array);
             assert.ok(items.length === 0);
+            
+            db.close();
         })(done);
     });
 })
