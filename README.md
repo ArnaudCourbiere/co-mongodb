@@ -29,3 +29,4 @@ co(function *() {
   yield comongo.db.close(db);
 })();
 ```
+Warning: This module is stil under development, for now MongoClient and Db functions are supported, more to come soon.
