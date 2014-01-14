@@ -16,7 +16,10 @@ $ npm install co-mongodb
 var comongo = require('co-mongodb');
 
 co(function *() {
+  // db is just a regular Db instance from the native driver.
   db = yield comongo.client.connect('mongodb://localhost:27017/test');
+  
+  // The same goes for collection.
   var collection = yield comongo.db.collection(db, 'testCollection');
   
   var result = yield comongo.db.addUser(db, 'user', 'pass');
