@@ -30,13 +30,13 @@ co(function *() {
 })();
 ```
 
-Supported functions:
+## Supported functions
 
-+[MongoClient](http://mongodb.github.io/node-mongodb-native/api-generated/mongoclient.html)
-+[Db](http://mongodb.github.io/node-mongodb-native/api-generated/db.html)
-+[Collection](http://mongodb.github.io/node-mongodb-native/api-generated/collection.html)
-+[Admin](http://mongodb.github.io/node-mongodb-native/api-generated/admin.html)
-+[Cursor](http://mongodb.github.io/node-mongodb-native/api-generated/cursor.html)
-+[Grid](http://mongodb.github.io/node-mongodb-native/api-generated/grid.html)
++ [MongoClient](http://mongodb.github.io/node-mongodb-native/api-generated/mongoclient.html)
++ [Db](http://mongodb.github.io/node-mongodb-native/api-generated/db.html)
++ [Collection](http://mongodb.github.io/node-mongodb-native/api-generated/collection.html)
++ [Admin](http://mongodb.github.io/node-mongodb-native/api-generated/admin.html)
++ [Cursor](http://mongodb.github.io/node-mongodb-native/api-generated/cursor.html)
++ [Grid](http://mongodb.github.io/node-mongodb-native/api-generated/grid.html)
 
 More to come soon...
