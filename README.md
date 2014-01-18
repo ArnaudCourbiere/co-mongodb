@@ -32,11 +32,11 @@ co(function *() {
 
 ## Supported functions
 
-+ [MongoClient](http://mongodb.github.io/node-mongodb-native/api-generated/mongoclient.html)
-+ [Db](http://mongodb.github.io/node-mongodb-native/api-generated/db.html)
-+ [Collection](http://mongodb.github.io/node-mongodb-native/api-generated/collection.html)
-+ [Admin](http://mongodb.github.io/node-mongodb-native/api-generated/admin.html)
-+ [Cursor](http://mongodb.github.io/node-mongodb-native/api-generated/cursor.html)
-+ [Grid](http://mongodb.github.io/node-mongodb-native/api-generated/grid.html)
++ [MongoClient](http://mongodb.github.io/node-mongodb-native/api-generated/mongoclient.html) `comongo.client`
++ [Db](http://mongodb.github.io/node-mongodb-native/api-generated/db.html) `comongo.db`
++ [Collection](http://mongodb.github.io/node-mongodb-native/api-generated/collection.html) `comongo.collection`
++ [Admin](http://mongodb.github.io/node-mongodb-native/api-generated/admin.html) `comongo.admin`
++ [Cursor](http://mongodb.github.io/node-mongodb-native/api-generated/cursor.html) `comongo.cursor`
++ [Grid](http://mongodb.github.io/node-mongodb-native/api-generated/grid.html) `comongo.grid`
 
 More to come soon...
