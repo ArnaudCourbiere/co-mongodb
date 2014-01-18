@@ -1,7 +1,7 @@
 {
     "name": "co-mongodb",
     "description": "mongodb wrapper to use with co and koa.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Arnaud Courbiere <arnaud.courbiere@gmail.com> (http://courbiere.me)",
     "main": "index",
     "dependencies": {
