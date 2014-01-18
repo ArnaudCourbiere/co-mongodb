@@ -3,7 +3,7 @@ co-mongodb
 
 [![Build Status](https://travis-ci.org/ArnaudCourbiere/co-mongodb.png?branch=master)](https://travis-ci.org/ArnaudCourbiere/co-mongodb)
 
-Manipulation library to use the mongodb native driver with generator based flow control libraries such as [co](https://github.com/visionmedia/co).
+Manipulation library to use the mongodb native driver with generator based flow control libraries such as [co](https://github.com/visionmedia/co) and frameworks such as [koa](https://github.com/koajs/koa).
 
 ## Instalation
 
